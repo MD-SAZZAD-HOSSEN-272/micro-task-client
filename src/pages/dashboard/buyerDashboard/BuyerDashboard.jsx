@@ -22,7 +22,7 @@ const BuyerLayout = () => {
       <div>
         <Navbar></Navbar>
       </div>
-      <div className=" flex bg-gray-50">
+      <div className=" flex ">
       
       {/* Sidebar */}
       <div

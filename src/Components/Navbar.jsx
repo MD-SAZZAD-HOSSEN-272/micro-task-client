@@ -4,10 +4,12 @@ import NotificationPopUp from "./NotificationPopUp";
 import { useState } from "react";
 import Swal from "sweetalert2";
 import { CiMenuBurger } from "react-icons/ci";
+import DarkMode from "./DarkMode";
 
 const Navbar = () => {
   const { user, logout, userData } = AuthUser();
   const [dropdownOpen, setDropdownOpen] = useState(false);
+
   const navigate = useNavigate();
   console.log(dropdownOpen);
   const handleSignOut = () => {
@@ -112,6 +114,7 @@ const Navbar = () => {
                   >
                     Join as Developer
                   </Link>
+                  
                 </div>
               )}
             </div>
@@ -146,6 +149,7 @@ const Navbar = () => {
             )}
           </div> }
           <NotificationPopUp />
+          <DarkMode></DarkMode>
         </div>
       </div>
     </nav>

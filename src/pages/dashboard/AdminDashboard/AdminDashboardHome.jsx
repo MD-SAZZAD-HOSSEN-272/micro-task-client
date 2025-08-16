@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { useQuery } from "@tanstack/react-query";
 import Swal from "sweetalert2";
 import useAxiosSecure from "../../../hooks/useAxiosSecure";
@@ -77,7 +77,7 @@ const AdminDashboardHome = () => {
       <div>
         <h2 className="text-2xl font-bold mb-4">Pending Withdraw Requests</h2>
         <div className="overflow-x-auto">
-          <table className="table w-full bg-white shadow rounded-lg">
+          <table className="table w-full bg-[var(--color-primary)] shadow rounded-lg">
             <thead>
               <tr className="bg-gray-200 text-gray-700">
                 <th>Worker Email</th>
