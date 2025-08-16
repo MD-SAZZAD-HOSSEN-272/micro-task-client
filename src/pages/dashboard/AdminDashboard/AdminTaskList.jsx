@@ -51,7 +51,7 @@ const AdminTaskList = () => {
   return (
     <div className="overflow-x-auto p-4">
       <h2 className="text-xl font-semibold mb-4">All Tasks</h2>
-      <table className="table w-full border">
+      <table className="table w-full border border-gray-300 p-5 m-5">
         <thead className="bg-gray-200 text-gray-700">
           <tr>
             <th>Image</th>

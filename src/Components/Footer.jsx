@@ -3,7 +3,7 @@ import { Link } from "react-router";
 
 const Footer = () => {
   return (
-    <footer className="bg-gradient-to-r from-gray-100 to-gray-200">
+    <footer className="bg-gradient-to-r from-gray-100 to-gray-200 text-center sm:text-left">
       <div className="max-w-6xl mx-auto px-4 py-8 grid grid-cols-1 sm:grid-cols-3 gap-6">
         
         {/* Brand / Logo */}
@@ -32,7 +32,7 @@ const Footer = () => {
           <h3 className="text-lg font-semibold mb-2">Contact</h3>
           <p className="text-sm">Email: support@yourapp.com</p>
           <p className="text-sm">Phone: +880-1234-567890</p>
-          <div className="flex space-x-4 mt-3">
+          <div className="flex space-x-4 mt-3 justify-center sm:justify-start">
             <a href="#" className="hover:text-blue-400">Facebook</a>
             <a href="#" className="hover:text-blue-400">Twitter</a>
             <a href="#" className="hover:text-blue-400">LinkedIn</a>
